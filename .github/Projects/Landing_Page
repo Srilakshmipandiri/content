@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-black text-white grid-cols-2 font-serif">
+    <header>
+        <div class="flex">
+            <nav>
+                <ul>                   
+                    <div class="flex items-center mt-2 mb-11">
+                    <img class="rounded-full border-solid w-16 h-16 ml-11 mt-4 outline-red-700 outline" src="photo-1533794318766-897f4d50cb39.jpeg">
+                    <div class=" flex items-rigth text-2xl ml-96 mt-4 font-semibold">
+                        <li class="text-red-700 pl-16 pr-4"><a href="#">Home</a></li>
+                        <li class="px-4"><a href="#">Service</a></li>
+                        <li class="px-4"><a href="#">About</a></li>
+                        <li class="px-4"><a href="#">Contact Us</a></li>
+                        <li class="px-4"><a href="#">Blog</a></li>
+                        <li class="active border-red px-11 ml-52 rounded-lg bg-gradient-to-r from-red-700 to-red-900 text-center"><a href="#">Login</a></li>
+                    </div>
+                    </div>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="grid grid-cols-2 mx-11 mb-2 mt-16">
+        <div>
+            <div class="text-red-700 opacity-80 font-semibold">
+                <h1># Get Your 14 Days Free Trail</h1>
+            </div>
+            <div class="flex flex-col">
+                <h1 class="text-5xl font-semibold mt-4">Manage All Of Your Stuff Using A TGB</h1>
+                <p class="opacity-60 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id tincidunt eifend odio viverra diam aliquet donec again.</p>
+            </div>
+            <div>
+                <div class="flex mt-2">
+                    <img class="rounded-full w-6 h-6 ml-1 mt-2 outline-red-700 outline" src="photo-1492562080023-ab3db95bfbce.jpeg">
+                    <img class="rounded-full w-6 h-6 ml-1 mt-2 outline-red-700 outline" src="photo-1522556189639-b150ed9c4330.jpeg">
+                    <img class="rounded-full w-6 h-6 ml-1 mt-2 outline-red-700 outline" src="photo-1524250502761-1ac6f2e30d43.jpeg">
+                    <img class="rounded-full w-6 h-6 ml-1 mt-2 outline-red-700 outline" src="photo-1534614971-6be99a7a3ffd.jpeg">
+                    <h1 class="align-self-center mt-4">4M + Users</h1>
+                </div>
+                <div class="flex">
+                    
+                </div>
+            </div>
+            <button class="mt-11 px-4 py-2 bg-gradient-to-r from-red-700 to-red-900 font-bold font-sans text-2xl rounded-lg hover:bg-pink-100 focus:outline-none">Learn More</button>
+        </div> 
+        <div class="">
+            <img src="photo-1519326882834-04c334752f58.jpeg">
+    
+        </div>
+    </div>
+
+</body>
+</html>

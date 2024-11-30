@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans justify-center align-self-center bg-orange-400 flex h-screen">
+    <div class="bg-white shadow-lg w-1/2 mx-52 my-2 py-6 px-0.5 box-border">
+        <h1 class="text-4xl font-bold text-center"> Survey Form</h1>
+        <p class="text-center text-lg">Users Stories Survey Form</p>
+        <form>
+            <div class="grid grid-cols-2 py-2 mr-32 ml-32 mb-2 text-right">
+                <label class="pr-6" for="Name">Name:</label>
+                <input class="border border-2 w-60" type="Text" id="Name Label" placeholder="Enter Your Name">
+            </div>
+            
+            <div class="grid grid-cols-2 py-2 mr-28 ml-28 mb-2 text-right">
+                <label class="pr-6" for="Email">Email:</label>
+                <input class="border border-2 w-60" type="Text" id="Name Label" placeholder="Enter Your Email Address">
+            </div>
+            <div class="grid grid-cols-2 py-2 mr-76 ml-76 mb-2 text-right">
+                <label class="pr-6" for="Experience">Work Experience:</label>
+                <input class="border border-2 w-60" type="Text" id="Experience" placeholder="Enter Number">
+            </div>
+            <div class="grid grid-cols-2 py-2 mr-2 ml-4 mb-4 text-right">
+                <label class="pr-6" for="Investing">Are you comfortable in investing in real estate on platform without first investigating properly</label>
+                <select class="border border-2 w-60" id="investing" name="investing">
+                    <option value="option1">Yes</option>
+                    <option value="option2">No</option>
+                </select>
+            </div>
+
+            <div class="grid grid-cols-2 py-2 mx-42 mb-2 text-right">
+                <label class="pr-6" for="Suggestions">Suggestions to build trusted platform:</label>
+                <textarea class="border-2 w-60" id="suggestion" name="suggestion" placeholder="Enter Your Suggestions"></textarea>
+            </div>
+            
+            <div class="grid grid-cols-2 py-2 mr-28 ml-28 ">
+                <label class="text-right pr-6"for="Name">You are ready to invest in:</label>
+                <label for="Real Estate">
+                    <input type="checkbox" id="real estate" name="invest-in" value="real estate">Real Estate
+                </label><br>
+                <label for="Mutual Funds">
+                    <input type="checkbox" id="mutual" name="invest-in" value="mutual funds">Mutual Funds                        
+                </label><br>
+                <label for="Crypto Currency">
+                    <input type="checkbox" id="Crypto Currency" name="invest-in" value="Crypto Currency">Crypto Currency                        
+                </label><br>
+                <label for="Stocks & Bonds">
+                    <input type="checkbox" id="Stocks & Bonds" name="invest-in" value="Stocks & Bonds">Stocks & Bonds                      
+                </label>
+            </div>
+                    
+                <div class="grid grid-cols-2 py-1 mr-42 ml-42">
+                    <label class="text-right pr-6" for="Name">Are you ready for further contact:</label>
+                    <label for="contact">
+                        <input type="radio" id="contact-yes" value="yes" name="contact">Yes
+                    </label><br>
+                    <label for="Contact">
+                        <input type="radio" id="contact-no" value="no" name="contact">No
+                    </label>
+                </div>
+                <div class="bg-orange-400 rounded-md h-7 w-44 text-center mx-auto mt-4 text-white">
+                    <button>Submit</button>
+                </div>
+            </form>
+    </div>
+</body>
+</html>
